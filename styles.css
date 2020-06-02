@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1em;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+.weapons-row {
+  display: flex;
+  border-radius: 5px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1em;
+}
+
+.scores {
+  border: solid 5px blue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 2em;
+  font-family: monospace;
+}
+
+.weapon {
+  border-radius: 5px;
+  border: solid 2px black;
+  padding: .5em 2em;
+  transition: .5s;
+}
+
+.weapon:hover {
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: .5s;
+  
+}
+
+button.reset{
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: .5em 2em;
+  transition: .5s;
+}
+
+.reset:hover{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  transition: .5s;
+  
+}
